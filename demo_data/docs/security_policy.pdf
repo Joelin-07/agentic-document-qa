@@ -1,0 +1,165 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1213 >>
+stream
+BT
+50 790 Td
+/F2 13 Tf
+18 TL
+(Nimbus Labs Information Security Policy) Tj
+T*
+/F1 11 Tf
+15 TL
+(Version 4.1 - effective 1 July 2026. Owner: Security Team \(security@nimbuslabs.example\).) Tj
+T*
+/F1 11 Tf
+8 TL
+() Tj
+T*
+/F2 13 Tf
+18 TL
+(1. Passwords and Authentication) Tj
+T*
+/F1 11 Tf
+15 TL
+(All accounts must use passwords of at least 14 characters. Password managers are) Tj
+T*
+(mandatory; the company provides 1Password to every employee. Multi-factor authentication) Tj
+T*
+(\(MFA\) is required for email, source control, cloud consoles and the VPN. Hardware) Tj
+T*
+(security keys are required for administrators.) Tj
+T*
+/F1 11 Tf
+8 TL
+() Tj
+T*
+/F2 13 Tf
+18 TL
+(2. API Keys and Secrets) Tj
+T*
+/F1 11 Tf
+15 TL
+(API keys and access tokens must be rotated at least every 90 days. Secrets must never be) Tj
+T*
+(committed to source control; they are stored in the company vault. A leaked secret must) Tj
+T*
+(be revoked immediately.) Tj
+T*
+/F1 11 Tf
+8 TL
+() Tj
+T*
+/F2 13 Tf
+18 TL
+(3. Devices) Tj
+T*
+/F1 11 Tf
+15 TL
+(Company laptops must use full-disk encryption and lock automatically after 5 minutes of) Tj
+T*
+(inactivity. Operating system security updates must be installed within 7 days of) Tj
+T*
+(release.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1189 >>
+stream
+BT
+50 790 Td
+/F2 13 Tf
+18 TL
+(4. Incident Reporting) Tj
+T*
+/F1 11 Tf
+15 TL
+(Any suspected security incident, such as a phishing email, a lost laptop or a leaked) Tj
+T*
+(password, must be reported to the Security Team within 1 hour of discovery, by email to) Tj
+T*
+(security@nimbuslabs.example or in the #security-incidents Slack channel.) Tj
+T*
+/F1 11 Tf
+8 TL
+() Tj
+T*
+/F2 13 Tf
+18 TL
+(5. Data Classification) Tj
+T*
+/F1 11 Tf
+15 TL
+(Company data is classified into four levels: Public, Internal, Confidential and) Tj
+T*
+(Restricted. Customer data is always classified as Restricted. Restricted data may only) Tj
+T*
+(be stored in approved systems and must be encrypted at rest and in transit.) Tj
+T*
+/F1 11 Tf
+8 TL
+() Tj
+T*
+/F2 13 Tf
+18 TL
+(6. Access Reviews) Tj
+T*
+/F1 11 Tf
+15 TL
+(Managers review the access rights of their team members every quarter. Access for) Tj
+T*
+(employees who leave the company is removed on their last working day.) Tj
+T*
+/F1 11 Tf
+8 TL
+() Tj
+T*
+/F2 13 Tf
+18 TL
+(7. Security Training) Tj
+T*
+/F1 11 Tf
+15 TL
+(All employees complete security awareness training during onboarding and then once per) Tj
+T*
+(year. Phishing simulations are run every quarter.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000456 00000 n 
+0000001721 00000 n 
+0000001857 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+3098
+%%EOF

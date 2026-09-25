@@ -1,0 +1,34 @@
+# Optional. The primary setup is native Python + native Ollama for Windows (see README).
+#
+#   docker compose up --build                   # app in Docker, Ollama running natively on the host
+#   docker compose --profile ollama up --build  # app AND Ollama in Docker (fallback, CPU only)
+#
+# With the "ollama" profile, set DOCQA_OLLAMA_HOST=http://ollama:11434 (e.g. in .env) and pull the models once:
+#   docker compose exec ollama ollama pull llama3.2:3b
+#   docker compose exec ollama ollama pull nomic-embed-text
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      DOCQA_OLLAMA_HOST: ${DOCQA_OLLAMA_HOST:-http://host.docker.internal:11434}
+      DOCQA_CHAT_MODEL: ${DOCQA_CHAT_MODEL:-llama3.2:3b}
+      DOCQA_EMBED_MODEL: ${DOCQA_EMBED_MODEL:-nomic-embed-text}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - docqa-data:/app/data
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
+
+volumes:
+  docqa-data:
+  ollama-models:

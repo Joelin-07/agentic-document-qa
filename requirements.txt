@@ -1,0 +1,15 @@
+# Tested versions (Python 3.11-3.13). Install with: pip install -r requirements.txt && pip install -e .
+langgraph==1.2.12
+langgraph-checkpoint-sqlite==3.1.1
+mcp==2.2.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+ollama==0.6.2
+numpy==2.5.3
+pypdf==6.19.0
+typer==0.27.2
+rich==15.0.0
+streamlit==1.64.0
+
+# dev / tests
+pytest==9.1.1

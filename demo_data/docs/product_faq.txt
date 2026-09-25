@@ -1,0 +1,36 @@
+NIMBUS NOTES - PRODUCT FAQ
+
+What is Nimbus Notes?
+Nimbus Notes is a note-taking and knowledge-sharing app for teams, made by Nimbus Labs. It runs
+on Windows, macOS, Linux, iOS and Android, and in any modern web browser.
+
+What plans are available and how much do they cost?
+There are three plans. The Free plan costs nothing and includes 2 GB of storage per user.
+The Pro plan costs 12 USD per user per month (or 120 USD per user per year when billed
+annually) and includes 100 GB of storage per user. The Enterprise plan has custom pricing,
+unlimited storage, single sign-on (SSO) and a dedicated account manager.
+
+Is there a free trial?
+Yes. Every new workspace gets a 14-day free trial of the Pro plan. No credit card is required
+to start the trial.
+
+What is the refund policy?
+Pro subscriptions can be refunded in full within 30 days of purchase. After 30 days, no refunds
+are given for the current billing period. Enterprise contracts are not refundable, but unused
+months can be credited towards a renewal.
+
+Does Nimbus Notes work offline?
+Yes. Since version 2.3, notes are available offline on desktop and mobile apps. Changes made
+offline are synced automatically when the device reconnects.
+
+How do I contact support?
+Free plan users can use the community forum. Pro users can email support@nimbusnotes.example
+and receive a reply within 24 hours on business days. Enterprise customers get 24/7 phone
+support with a 1-hour response time for critical issues.
+
+Can I export my notes?
+Yes. Notes can be exported to Markdown, PDF or HTML at any time from Settings > Export. Exports
+include attachments.
+
+How many people can edit a note at the same time?
+Up to 50 people can edit the same note simultaneously with real-time collaboration.

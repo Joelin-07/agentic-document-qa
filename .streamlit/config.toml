@@ -1,0 +1,10 @@
+[server]
+port = 8501
+address = "localhost"
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
